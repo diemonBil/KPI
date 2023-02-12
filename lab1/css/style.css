@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #f3f4f7;
+  }
+  .content {
+    min-height: 100%;
+  }
+  .content-inside {
+    padding: 20px;
+    padding-bottom: 50px;
+  }
+  .footer {
+    height: 50px;
+    margin-top: -100px;
+  }
+  .footer-padding{
+    padding-top: 50px;
+    margin-top: 0px;
+  }
+  .footer-p{
+    padding-bottom: 20px;
+    padding-top: 50px;
+  }
+  .form-floating .form-select.registration-select{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
