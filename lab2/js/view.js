@@ -24,3 +24,9 @@ function displayTimer(){
     display_minutes.val(minutes);
     display_seconds.val(seconds);
 }
+function changeAccessibilityOfInputs( bool ){
+    input_hours.attr("disabled", !bool);
+    input_minutes.attr("disabled", !bool);
+    input_seconds.attr("disabled", !bool);
+    add_button.attr("disabled", !bool);
+}
